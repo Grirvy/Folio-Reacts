@@ -120,6 +120,10 @@
   .portfolio__item-details {
     margin-top: 10px; /* Add margin above work card details */
   }
+
+  .projects__boxPics {
+
+  }
 }
 
 * {
@@ -429,10 +433,6 @@ input {
 
 .about__subtitle {
   font-size: var(--smallwe-font-size);
-}
-
-#project-box-2 {
-  cursor: pointer;
 }
 
 .project-container {
@@ -764,6 +764,14 @@ input {
 #message {
   width: 100%;
   height: 100%;
+}
+
+.footer__link:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.footer__link:hover {
+  color: #4078c0; /* GitHub blue */
 }
 
 @keyframes App-logo-spin {

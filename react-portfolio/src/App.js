@@ -38,8 +38,8 @@ export default function App() {
         <div className="home__container container grid">
 			  <div className="home social">
 			  	</div>
+          <img src="./assets/img/home-img-PNG" alt="" className="home__img"></img>
 			  </div>
-			    <img src="./assets/img/home-img-PNG" alt="" className="home__img"></img>
         <div className="home__data">
 				<h1 className="home__title">Hi, Im Isaiah</h1>
 				<h3 className="home__subtitle">Developer</h3>
@@ -124,111 +124,87 @@ export default function App() {
     		<div className="work__card mix web">
     			<img src="assets/img/work-1.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">Web Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">The services provide for design</h3>
     				<p className="details__description"> My service to this project was assisting with the database, and working on some css for the frontend.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 29 Jan 2024</span></li>
-    					<li>Technologies - <span>html css javascript</span></li>
-    					<li>Role - <span>frontend/backend</span></li>
+    					<img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://video-vault-a9fdebd79a00.herokuapp.com/</a></span></li>
-    				</ul>
     			</div>
     		</div>
 
     		<div className="work__card mix app">
     			<img src="assets/img/work-2.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">App Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">App landing design & app maintain</h3>
     				<p className="details__description"> Put together a weather app that using html, css, and javascript 
             to store data in the users browser.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 14 Nov 2023</span></li>
-    					<li>Technologies - <span>html css javascript</span></li>
-    					<li>Role - <span>Solo Project</span></li>
+                <img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://grirvy.github.io/Ether-Weather/</a></span></li>
-    				</ul>
     			</div>
     		</div>
 
     		<div className="work__card mix design">
     			<img src="assets/img/work-3.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">App Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">App landing design & app maintain.</h3>
     				<p className="details__description">Built an app that allows the user to have a daily work scheduler.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 6 Nov 2023</span></li>
-    					<li>Technologies - <span>html css javascript</span></li>
-    					<li>Role - <span>Solo Project</span></li>
+                <img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://grirvy.github.io/Lend-A-Cal/</a></span></li>
-    				</ul>
     			</div>
     		</div>
 
     		<div className="work__card mix app">
     			<img src="assets/img/work-4.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">App Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">App landing design & Services</h3>
     				<p className="details__description"> App designed to let a user generate a logo for free on their own.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 13 Dec 2023</span></li>
-    					<li>Technologies - <span>html css javascript </span></li>
-    					<li>Role - <span>Solo Backend</span></li>
+                <img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://github.com/Grirvy/Shapes-A</a></span></li>
-    				</ul>
     			</div>
     		</div>
 
     		<div className="work__card mix web">
     			<img src="assets/img/work-5.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">App Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">Design for technology & services</h3>
     				<p className="details__description"> Backend app that lets that gives the user the ability
             to generate a professional README.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 6 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
+                <img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://github.com/Grirvy/Build-A-Read</a></span></li>
-    				</ul>
     			</div>
     		</div>
 
     		<div className="work__card mix design">
     			<img src="assets/img/work-6.webp" alt="" className="work-img"></img>
     			<h3 className="work__title">Web App Design</h3>
-    			<span className="work__button">Demo
+    			<span className="work__button">App
     				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
     			<div className="portfolio__item-details">
     				<h3 className="details__title">App for searching movies and their ratings</h3>
     				<p className="details__description"> Assisted in the backend of the application with getting the data
             and passing it into the site.</p>
-    				<ul className="detail__info">
-    					<li> Created - <span> 20 Nov 2023</span></li>
-    					<li>Technologies - <span>html css javascript</span></li>
-    					<li>Role - <span>backend</span></li>
+    				<img src="./assets/img/app_screenshot.PNG" alt="" className="projects__boxPics"></img>
     					<li>View - <span><a href="#">https://github.com/Tran93/MovieApiProj</a></span></li>
-    				</ul>
     			</div>
     		</div>
     	</div>
