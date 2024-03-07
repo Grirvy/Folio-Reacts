@@ -1,5 +1,8 @@
 # React Portfolio
 
+## Viewability
+Mobile Devices
+
 ## SRC
 [Src Code](./react-portfolio/src/App.js)
 
