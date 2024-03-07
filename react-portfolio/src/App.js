@@ -33,76 +33,61 @@ export default function App() {
           </div>
         </nav>
       </aside>
-    <main class="main">
-	    <section class="home" id="home">
-        <div class="home__container container grid">
-			  <div class="home social">
-			  	<div class="div home__social-links">
-			  		<a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-			  			<i class="uil uil-instagram"></i>
-			  		</a>
-			  		<a href="https://twitter.com/" target="_blank" class="home__social-link">
-			  			<i class="uil uil-twitter"></i>
-			  		</a>
-			  		<a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-			  			<i class="uil uil-facebook-f"></i>
-			  		</a>
+    <main className="main">
+	    <section className="home" id="home">
+        <div className="home__container container grid">
+			  <div className="home social">
 			  	</div>
 			  </div>
-			    <img src="./assets/img/home-img-PNG" alt="" class="home__img"></img>
-        </div>
-        <div class="home__data">
-				<h1 class="home__title">Hi, Im Isaiah</h1>
-				<h3 class="home__subtitle">Developer</h3>
-				<p class="home__description">Low Level Experience in web design and development knowledge,
+			    <img src="./assets/img/home-img-PNG" alt="" className="home__img"></img>
+        <div className="home__data">
+				<h1 className="home__title">Hi, Im Isaiah</h1>
+				<h3 className="home__subtitle">Developer</h3>
+				<p className="home__description">Low Level Experience in web design and development knowledge,
 				but I will always try producing quality work.</p>
 			</div>
 
-			<div class="my__info">
-				<div class="info__item">
-					<i class="uil uil-facebook-messenger info__icon"></i>
+			<div className="my__info">
+				<div className="info__item">
+					<i className="uil uil-facebook-messenger info__icon"></i>
 
 					<div>
-						<h3 class="info__title">Github</h3>
-						<span class="info__subtitle">Grirvy</span>
 					</div>
 				</div>
 
-				<div class="info__item">
-					<i class="uil uil-envelope-edit info__icon"></i>
+				<div className="info__item">
+					<i className="uil uil-envelope-edit info__icon"></i>
 					
 					<div>
-						<h3 class="info__title">Email</h3>
-						<span class="info__subtitle">isaiahross777@yahoo.com</span>
 					</div>
 				</div>
 			</div>
 	  </section>
-      <section class="about section" id="about">
-  		<h2 data-heading="My Intro" class="section__title">About Me</h2>
+      <section className="about section" id="about">
+  		<h2 data-heading="My Intro" className="section__title">About Me</h2>
 
-  		<div class="about__container container grid">
-  		<img src="./assets/img/home-img.PNG" alt="" class="about_img"></img>
+  		<div className="about__container container grid">
+  		<img src="./assets/img/home-img.PNG" alt="" className="about_img"></img>
 
-  			<div class="about__data">
-  				<h3 class="about__heading">More About Me</h3>
-  				<p class="about__description">Developer, with about 2 years of experience,
+  			<div className="about__data">
+  				<h3 className="about__heading">More About Me</h3>
+  				<p className="about__description">Developer, with about 1 years worth of experience,
   				work mainly with Javascript and I am currently working on improving on my Ui / Ux Designs.</p>
-  				<div class="about__info grid">
-  					<div class="about__box" id="project-box-1">
-  							<i class="uil uil-award about__icon"></i>
-  							<h3 class="about__title">Experience</h3>
-  							<span class="about__subititle">2 + Years</span>
+  				<div className="about__info grid">
+  					<div className="about__box" id="project-box-1">
+  							<i className="uil uil-award about__icon"></i>
+  							<h3 className="about__title">Experience</h3>
+  							<span className="about__subititle">1 + Years</span>
   					</div>
 
-  					<div class="about__box" id="project-box-2">
-  						<i class="uil uil-award-alt about__icon"></i>
-  						<h3 class="about__title">Completed</h3>
-  						<span class="about__subititle">19 + Projects</span>
+  					<div className="about__box" id="project-box-2">
+  						<i className="uil uil-award-alt about__icon"></i>
+  						<h3 className="about__title">Completed</h3>
+  						<span className="about__subititle">19 + Projects</span>
   					</div>
 
   				</div>
-  				<a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>
+  				<a href="#contact" className="button"><i className="uil uil-navigator button-icon"></i>
   				Contact Me
   				</a>
   			</div>
@@ -123,8 +108,8 @@ export default function App() {
                 {/* Render SkillItem components with dynamic width */}
                 <SkillItem name="HTML" percentage={30} />
                 <SkillItem name="CSS" percentage={30} />
-                <SkillItem name="JavaScript" percentage={70} />
-                <SkillItem name="React" percentage={10} />
+                <SkillItem name="JavaScript" percentage={60} />
+                <SkillItem name="React" percentage={30} />
               </div>
             </div>
             {/* Other skill groups */}
@@ -132,132 +117,147 @@ export default function App() {
         </div>
       </section>
       {/* Work Section */}
-      <section class="work__section" id="work">
-	<h2 data-heading="My Portfolio" class="section__title">Recent Works</h2>
+      <section className="work__section" id="work">
+	<h2 data-heading="My Portfolio" className="section__title">Projects</h2>
 
-    	<div class="work__filters">
-    		<span class="work__item active-work" data-filter="all">All</span>
-    			<span class="work__item" data-filter=".web">Web</span>
-    			<span class="work__item" data-filter=".app">App</span>
-    			<span class="work__item" data-filter=".design">Design</span>
-    	</div>
-
-    	<div class="work__container container grid">
-    		<div class="work__card mix web">
-    			<img src="assets/img/work-1.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">Web Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    	<div className="work__container container grid">
+    		<div className="work__card mix web">
+    			<img src="assets/img/work-1.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">Web Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">The services provide for design</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">The services provide for design</h3>
+    				<p className="details__description"> My service to this project was assisting with the database, and working on some css for the frontend.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 29 Jan 2024</span></li>
+    					<li>Technologies - <span>html css javascript</span></li>
+    					<li>Role - <span>frontend/backend</span></li>
+    					<li>View - <span><a href="#">https://video-vault-a9fdebd79a00.herokuapp.com/</a></span></li>
     				</ul>
     			</div>
     		</div>
 
-    		<div class="work__card mix app">
-    			<img src="assets/img/work-2.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">App Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    		<div className="work__card mix app">
+    			<img src="assets/img/work-2.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">App Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">Mobile app landing design & app maintain</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">App landing design & app maintain</h3>
+    				<p className="details__description"> Put together a weather app that using html, css, and javascript 
+            to store data in the users browser.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 14 Nov 2023</span></li>
+    					<li>Technologies - <span>html css javascript</span></li>
+    					<li>Role - <span>Solo Project</span></li>
+    					<li>View - <span><a href="#">https://grirvy.github.io/Ether-Weather/</a></span></li>
     				</ul>
     			</div>
     		</div>
 
-    		<div class="work__card mix design">
-    			<img src="assets/img/work-3.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">Brand Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    		<div className="work__card mix design">
+    			<img src="assets/img/work-3.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">App Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">Logo design creativity & Application</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">App landing design & app maintain.</h3>
+    				<p className="details__description">Built an app that allows the user to have a daily work scheduler.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 6 Nov 2023</span></li>
+    					<li>Technologies - <span>html css javascript</span></li>
+    					<li>Role - <span>Solo Project</span></li>
+    					<li>View - <span><a href="#">https://grirvy.github.io/Lend-A-Cal/</a></span></li>
     				</ul>
     			</div>
     		</div>
 
-    		<div class="work__card mix app">
-    			<img src="assets/img/work-4.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">App Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    		<div className="work__card mix app">
+    			<img src="assets/img/work-4.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">App Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">Mobile app landing design & Services</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">App landing design & Services</h3>
+    				<p className="details__description"> App designed to let a user generate a logo for free on their own.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 13 Dec 2023</span></li>
+    					<li>Technologies - <span>html css javascript </span></li>
+    					<li>Role - <span>Solo Backend</span></li>
+    					<li>View - <span><a href="#">https://github.com/Grirvy/Shapes-A</a></span></li>
     				</ul>
     			</div>
     		</div>
 
-    		<div class="work__card mix web">
-    			<img src="assets/img/work-5.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">Brand Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    		<div className="work__card mix web">
+    			<img src="assets/img/work-5.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">App Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">Design for technology & services</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">Design for technology & services</h3>
+    				<p className="details__description"> Backend app that lets that gives the user the ability
+            to generate a professional README.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 6 Dec 2023</span></li>
     					<li>Technologies - <span>html css</span></li>
     					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    					<li>View - <span><a href="#">https://github.com/Grirvy/Build-A-Read</a></span></li>
     				</ul>
     			</div>
     		</div>
 
-    		<div class="work__card mix design">
-    			<img src="assets/img/work-6.webp" alt="" class="work-img"></img>
-    			<h3 class="work__title">Web Design</h3>
-    			<span class="work__button">Demo
-    				<i class="uil uil-arrow-right work__button-icon"></i>
+    		<div className="work__card mix design">
+    			<img src="assets/img/work-6.webp" alt="" className="work-img"></img>
+    			<h3 className="work__title">Web App Design</h3>
+    			<span className="work__button">Demo
+    				<i className="uil uil-arrow-right work__button-icon"></i>
     			</span>
-    			<div class="portfolio__item-details">
-    				<h3 class="details__title">App for technology & services</h3>
-    				<p class="details__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    				Quis temporibus ut accusamus.</p>
-    				<ul class="detail__info">
-    					<li> Created - <span> 4 Dec 2023</span></li>
-    					<li>Technologies - <span>html css</span></li>
-    					<li>Role - <span>frontend</span></li>
-    					<li>View - <span><a href="#">www.domain.com</a></span></li>
+    			<div className="portfolio__item-details">
+    				<h3 className="details__title">App for searching movies and their ratings</h3>
+    				<p className="details__description"> Assisted in the backend of the application with getting the data
+            and passing it into the site.</p>
+    				<ul className="detail__info">
+    					<li> Created - <span> 20 Nov 2023</span></li>
+    					<li>Technologies - <span>html css javascript</span></li>
+    					<li>Role - <span>backend</span></li>
+    					<li>View - <span><a href="#">https://github.com/Tran93/MovieApiProj</a></span></li>
     				</ul>
     			</div>
     		</div>
     	</div>
     </section>
+    {/*<!-- Contact Form -->*/}
+<form id="contactForm">
+  <input type="text" id="name" name="name" placeholder="Your Name" required></input>
+  <input type="email" id="email" name="email" placeholder="Your Email" required></input>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+<div id="errorMessages"></div>
+
+{/*<!-- Resume Section -->*/}
+<div id="resumeSection">
+  <a href="resume.pdf" download>Download Resume</a>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    {/*<!-- Add more here -->*/}
+  </ul>
+</div>
+
+{/*<!-- Footer Links -->*/}
+<footer>
+  <a href="https://github.com/Grirvy" target="_blank"> GitHub</a>
+  <a href="https://linkedin.com/in/developer" target="_blank"> LinkedIn</a>
+</footer>
   </main>
   </div> //End of app div
     )
