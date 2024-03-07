@@ -46,7 +46,7 @@
 }
 
 /* Responsive Typography */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   :root {
   --biggest-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -112,6 +112,9 @@
 
   .work__card {
     width: 100%; /* Set work card width to 100% */
+    display: flexbox;
+    overflow: hidden; /* Hide any content that overflows the box */
+    word-wrap: break-word; 
   }
 
   .portfolio__item-details {
@@ -185,7 +188,7 @@ input {
 .section__title {
   text-align: context;
   font-size: var(--h1-font-size);
-  margin-bottom: var(--mb-3)
+  margin-bottom: .5rem;
 }
 
 .section__title::before {
@@ -452,7 +455,7 @@ input {
   grid-template-columns: 360px 320px;
   column-gap: 3rem;
   justify-content: center;
-  margin-left: -21rem;
+  margin-left: -25rem;
 }
 
 .skills__header {
@@ -544,6 +547,7 @@ input {
   background-color: var(--box-color);
   padding: 1.25rem;
   border-radius: .5rem;
+  display: flexbox;
 }
 
 .portfolio__items-details {
@@ -757,7 +761,10 @@ input {
   margin: auto;
 }
 
-
+#message {
+  width: 100%;
+  height: 100%;
+}
 
 @keyframes App-logo-spin {
   from {
