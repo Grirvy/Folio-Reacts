@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## SRC
-[Src Code](./react-portfolio/src/App.js);
+[Src Code](./react-portfolio/src/App.js)
 
 ## Sources
 Pictures - https://www.google.com/ and screenshots
